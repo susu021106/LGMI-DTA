@@ -1,0 +1,15 @@
+# Versions recorded from the existing Ubuntu-Su Conda environment.
+# Python 3.9.23; install torch and legacy CUDA-enabled DGL from their wheel sources.
+--extra-index-url https://download.pytorch.org/whl/cu121
+--find-links https://data.dgl.ai/wheels/repo.html
+
+torch==2.3.1+cu121
+dgl-cu113==0.9.1
+numpy==1.23.5
+pandas==2.3.3
+scipy==1.10.1
+scikit-learn==1.6.1
+rdkit-pypi==2022.9.5
+transformers==4.57.3
+deepchem==2.6.1
+MDAnalysis==2.3.0
